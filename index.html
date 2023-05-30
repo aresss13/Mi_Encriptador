@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preload" href="css/styles.css" as="style">
+    <link href="css/styles.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <script src="main.js"></script>
+    <header>
+        <h1>ENCRIPTADOR</h1>
+        <div class="video-container">
+            <video autoplay loop muted>
+              <source src="assets/fondo pagina.mp4">
+            </video>
+          </div>
+    </header>
+    <main>
+        <h2>Challenge alura / Encriptador</h2>
+
+        <div class="parent">
+            <div class="entrada">
+                <label for="input-text">Texto a encriptar o desencriptar:</label>
+                <textarea id="input-text" rows="15" cols="30" minlength="1" maxlength="500" required
+                    placeholder="Ingresa aquí el texto"></textarea>
+                <div class="botones">
+                    <button type="button" class="boton" onclick="encriptar()">Encriptar</button>
+                <button type="button" class="boton" onclick="desencriptar()">Desencriptar</button>
+                </div>
+                
+            </div>
+            <div class="salida">
+                <label for="output-text">Resultado:</label>
+                <textarea id="output-text" rows="15" cols="30" minlength="1" maxlength="500" placeholder="Resultado"
+                    readonly></textarea>
+                <div class="botones">
+                    <button class="boton" type="button" onclick="copyToClipboard()">Copiar</button>
+                </div>
+                
+            </div>
+            <div class="historial">
+                <label for="history">Historial de palabras encriptadas:</label>
+                <textarea id="history" rows="40" cols="15" minlength="1" maxlength="500 " readonly></textarea>
+            </div>
+        </div>
+
+    </main>
+    <footer class="footer">
+        <p>Designed by Ivan Gonzalez, Challenge alura, 2023</p>
+    </footer>
+</body>
+
+</html>
