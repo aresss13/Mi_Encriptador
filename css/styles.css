@@ -49,6 +49,11 @@ h1, h2, h3{
   box-shadow: 0px 0px 5px rgba(66,66,66,.75);
   text-shadow: 0px 0px 5px rgba(66,66,66,.75);
 }
+.advertencia {
+  color: var(--fuente);
+  text-align: center;
+  margin: 10px;
+}
 
 .salida {
   padding: 20px;
@@ -187,6 +192,10 @@ footer{
   min-width: 100%; /* Ajusta el video al ancho completo del contenedor */
   min-height: 100%; /* Ajusta el video a la altura completa del contenedor */
   object-fit: cover; /* Cubre completamente el contenedor con el video */
+}
+
+img {
+  width: 150px;
 }
 
 

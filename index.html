@@ -9,12 +9,15 @@
     <link rel="stylesheet" href="reset.css">
     <link rel="preload" href="css/styles.css" as="style">
     <link href="css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.18/dist/sweetalert2.min.css">
 
 </head>
 
 <body>
     <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.18/dist/sweetalert2.min.js"></script>
     <header>
+
         <h1>ENCRIPTADOR</h1>
         <div class="video-container">
             <video autoplay loop muted>
@@ -23,13 +26,16 @@
           </div>
     </header>
     <main>
-        <h2>Challenge alura / Encriptador</h2>
+        <h2>Challenge Oracle ONE </h2>
 
         <div class="parent">
             <div class="entrada">
                 <label for="input-text">Texto a encriptar o desencriptar:</label>
                 <textarea id="input-text" rows="15" cols="30" minlength="1" maxlength="500" required
                     placeholder="Ingresa aquí el texto"></textarea>
+                <div class="advertencia">
+                    <h6>⚠️ Texto en minuscula, sin acentos ni caracteres especiales.</h6>
+                </div>
                 <div class="botones">
                     <button type="button" class="boton" onclick="encriptar()">Encriptar</button>
                 <button type="button" class="boton" onclick="desencriptar()">Desencriptar</button>
@@ -53,7 +59,15 @@
 
     </main>
     <footer class="footer">
-        <p>Designed by Ivan Gonzalez, Challenge alura, 2023</p>
+        <div class="redes">
+            <a href="https://github.com/aresss13">
+            <img src="assets/github.png" alt="logo de github">
+            </a>
+            <a href="https://www.linkedin.com/in/ivan-gnz-dvjr/">
+            <img src="assets/linkedin.png" alt="logo de linkedin">
+            </a>
+        </div>
+        <p>&copy Ivan Gonzalez (aresss13) - 2023</p>
     </footer>
 </body>
 

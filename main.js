@@ -7,12 +7,20 @@ const llavesEncriptacion = {
 	"u": "ufat"
 }
 
+//Funcion de copiar
 function copyToClipboard() {
-    var output = document.getElementById("output-text");
-    output.select();
-    document.execCommand("copy");
-    alert("Texto copiado al portapapeles");
-}
+	var output = document.getElementById("output-text");
+	output.select();
+	document.execCommand("copy");
+  
+	// Mostrar alerta de texto copiado utilizando SweetAlert
+	Swal.fire({
+	  icon: 'success',
+	  title: '¡Texto copiado al portapapeles!',
+	  showConfirmButton: false,
+	  timer: 1500
+	});
+  }
 
 // Función para encriptar el texto
 function encriptar() {
