@@ -37,12 +37,13 @@ h1, h2, h3{
 }
 
 .entrada textarea {
+  background: #000000;
   padding: 10px;
   margin: 10px;
   border-width: 0px;
   border-color: #CCCCCC;
-  opacity: 0.8;
-  color: #000000;
+  opacity: 0.6;
+  color: #ffffff;
   font-size: 15px;
   border-style: solid;
   border-radius: 14px;
@@ -73,12 +74,13 @@ h1, h2, h3{
 }
 
 .salida textarea{
+  background: #000000;
   padding: 10px;
   margin: 10px;
   border-width: 0px;
   border-color: #CCCCCC;
-  opacity: 0.8;
-  color: #000000;
+  opacity: 0.6;
+  color: #ffffff;
   font-size: 15px;
   border-style: solid;
   border-radius: 14px;
@@ -103,12 +105,13 @@ h1, h2, h3{
 }
 
 .historial textarea {
-  opacity: 0.8;
+  background: #000000;
+  opacity: 0.6;
   padding: 10px;
   margin: 10px;
   border-width: 0px;
   border-color: #CCCCCC;
-  color: #000000;
+  color: #ffffff;
   border-style: solid;
   border-radius: 14px;
   box-shadow: 0px 0px 5px rgba(66,66,66,.75);
