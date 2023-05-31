@@ -11,7 +11,12 @@
 
 html {
   background: var(--fondo);
+  font-family: 'Chakra Petch', sans-serif;
 }
+
+ h1 {
+  padding-top: 20px;
+ }
 
 h1, h2, h3{
   text-align: center;
@@ -44,7 +49,7 @@ h1, h2, h3{
   border-color: #CCCCCC;
   opacity: 0.6;
   color: #ffffff;
-  font-size: 15px;
+  font-size: 20px;
   border-style: solid;
   border-radius: 14px;
   box-shadow: 0px 0px 5px rgba(66,66,66,.75);
@@ -81,7 +86,7 @@ h1, h2, h3{
   border-color: #CCCCCC;
   opacity: 0.6;
   color: #ffffff;
-  font-size: 15px;
+  font-size: 20px;
   border-style: solid;
   border-radius: 14px;
   box-shadow: 0px 0px 5px rgba(66,66,66,.75);
@@ -105,6 +110,7 @@ h1, h2, h3{
 }
 
 .historial textarea {
+  font-size: 20px;
   background: #000000;
   opacity: 0.6;
   padding: 10px;
@@ -191,7 +197,7 @@ footer{
 }
 
 .video-container video {
-  opacity: 0.2;
+  opacity: 0.4;
   min-width: 100%; /* Ajusta el video al ancho completo del contenedor */
   min-height: 100%; /* Ajusta el video a la altura completa del contenedor */
   object-fit: cover; /* Cubre completamente el contenedor con el video */
